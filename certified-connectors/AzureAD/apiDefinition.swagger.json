@@ -75,6 +75,11 @@
                   "type": "boolean",
                   "x-ms-summary": "Security Enabled"
                 },
+                "securityNeeded": {
+                  "description": "True if the new group is a security group.",
+                  "type": "boolean",
+                  "x-ms-summary": "Security Needed"
+                },                
                 "mailEnabled": {
                   "description": "True if the new group is a mailing group.",
                   "type": "boolean",
